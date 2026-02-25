@@ -1,0 +1,6 @@
+totalRelativeMatrixError_tpfa,0.000821868428257446
+totalRelativeFractureError_tpfa,7.08188609006749e-07
+totalRelativeMatrixError_cg,0.0040561855521343
+totalRelativeFractureError_cg,7.13146680458817e-07
+totalRelativeMatrixError_ldg,0.00404789351928686
+totalRelativeFractureError_ldg,6.27735909942775e-05
