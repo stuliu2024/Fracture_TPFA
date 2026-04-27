@@ -8,6 +8,8 @@ bbb=2.5;
 nx=70*bbb*2; ny=60*bbb;
 tic
 
+addpath(genpath(pwd))
+
 %%
 x=linspace(xa,xb,nx+1); x=x(:); sx = numel(x)-1; 
 y=linspace(yc,yd,ny+1); y=y(:); sy = numel(y)-1; 
