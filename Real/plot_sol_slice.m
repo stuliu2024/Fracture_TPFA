@@ -3,10 +3,9 @@ close all
 
 xa=0;xb=700;yc=0;yd=600;
 
-%导入参考解
-% Data_r = load('mfd_geiger_conductive.mat');
 
-%依次导入3^i,i=2,...,5解
+addpath(genpath(pwd))
+
 Data_r = load('Data.mat');
 Data_105 = load('Data_105.mat');
 Data_175 = load('Data_175.mat');
@@ -35,7 +34,7 @@ saveas(gcf, 'Real_Slice_x_625','epsc');
 
 
 % compare
-Data_ldg = load('Data_ldg_175.mat');
+Data_ldg = load('Data_ldg_350.mat');
 
 % ldg
 Data_ldg.Slice_Res = mat2cell(Data_ldg.Slice_Res, Data_ldg.length_slice, 1);

@@ -1,7 +1,10 @@
 clc,clear
 close all
 
+
 xa=0;xb=700;yc=0;yd=600;
+
+addpath(genpath(pwd))
 
 %依次导入3^i,i=2,...,5解
 Data_105 = load('Data_1120.mat');
