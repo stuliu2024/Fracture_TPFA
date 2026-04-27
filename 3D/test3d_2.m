@@ -5,7 +5,7 @@ gravity reset off;
 
 % tic
 %% Initialize a grid
-N=100;
+N=40;
 Nx = [N N N];
 G = cartGrid(Nx,[1 1 1],'cellnodes',true);
 G = computeGeometry(G);
@@ -143,9 +143,9 @@ end
 function [coordinates,elements,EtoEmap] = CubicMesh( xmin,xmax,ymin,ymax,zmin,zmax,N,M,L )
 % time : 2020.2.11 - 2020.2.11
 % author : xuziyao
-%   ±¾º¯ÊıÄ¿Ç°½öÊÊÓÃÓÚÁ¢·½ÌåÇøÓòµÄ¾ùÔÈÁ¢·½ÌåÆÊ·Ö.
+%   æœ¬å‡½æ•°ç›®å‰ä»…é€‚ç”¨äºç«‹æ–¹ä½“åŒºåŸŸçš„å‡åŒ€ç«‹æ–¹ä½“å‰–åˆ†.
 XX=linspace(xmin,xmax,N+1); YY=linspace(ymin,ymax,M+1); ZZ=linspace(zmin,zmax,L+1);
-[X,Y,Z]=meshgrid(XX,YY,ZZ);      % ×İÏßºáÏß½»´íÉú³É·½¸ñÍø½ÚµãµÄx,y,z×ø±ê£¬·Ö±ğ´æÈëX,Y,Z¾ØÕó
+[X,Y,Z]=meshgrid(XX,YY,ZZ);      % çºµçº¿æ¨ªçº¿äº¤é”™ç”Ÿæˆæ–¹æ ¼ç½‘èŠ‚ç‚¹çš„x,y,zåæ ‡ï¼Œåˆ†åˆ«å­˜å…¥X,Y,ZçŸ©é˜µ
 X = permute(X,[2,1,3]); Y = permute(Y,[2,1,3]); Z = permute(Z,[2,1,3]); 
 coordinates=zeros((N+1)*(M+1)*(L+1),3); elements=zeros(8,N*M*L); EtoEmap=zeros(6,N*M*L);
 coordinates(:,1)=X(:);coordinates(:,2)=Y(:);coordinates(:,3)=Z(:); 
