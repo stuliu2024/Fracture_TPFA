@@ -1,22 +1,9 @@
-# Fracture_TPFA
-Paper: A novel control volume method for flow in fractured porous media on non-conforming meshes.
+# Please install any version MRST
 
-All code was written and tested with MATLAB R2018a.
 
-Attention！！！
+These codes are baed on Mrst-2023a.
 
-### Cross
 
-"test4_5.m": Results for Cross case. 
-"plot_sol_slice.m", "plot_sol_slice1.m": Results and pressure profile plots. 
+How to download: https://www.sintef.no/projectweb/mrst/download/
 
-"error_compare.m": Relative L2 errors for matrix and fractures.
-
-### Real
-
-"test4_7.m": Results for Real case. just click Run. 
-
-### Cruve
-
-“test7_1.m”, "test7_2.m": Results for Cruve case.
 
