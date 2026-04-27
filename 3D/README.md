@@ -1,4 +1,4 @@
-# MRST-Based Simulation Codes
+# How to run these codes
 
 This repository contains MATLAB codes developed based on the MATLAB Reservoir Simulation Toolbox (MRST).  
 The codes were developed and tested using **MRST-2023a**.
