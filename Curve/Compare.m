@@ -1,7 +1,7 @@
 %% compare 
 clc,clear
 close all
-
+addpath(genpath(pwd))
 %两个参考解
 Ref_1 = load('referenceData.mat');
 Ref_2 = load('referenceData2.mat');

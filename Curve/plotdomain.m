@@ -1,11 +1,12 @@
 clc,clear
+addpath(genpath(pwd))
 % set the geometry and triangulation parameters:
 xmin = 0 ; xmax = 1 ; % domain 
 ymin = 0 ; ymax = 1 ; % domain
 % x direction is divided into N parts ,y direction is divided into M parts:
 Cell_N = 1 ; Cell_M = 1 ; 
 hx = ( xmax - xmin ) / Cell_N ; hy = ( ymax - ymin ) / Cell_M ;
-[coordinates,elements4,EtoEmap] = RectangularMesh( xmin,xmax,ymin,ymax,Cell_N,Cell_M );% periodic boundary condition
+[coordinates,elements4,EtoEmap] = RectangulrMesh( xmin,xmax,ymin,ymax,Cell_N,Cell_M );% periodic boundary condition
 % plot the triangulation and fractures
 figure;surf(reshape(coordinates(:,1),Cell_N+1,Cell_M+1),reshape(coordinates(:,2),Cell_N+1,Cell_M+1),zeros(Cell_N+1,Cell_M+1));
 colormap('white');axis image;axis off; ax=axis;axis(ax*1.001); view([0,90]); hold on;
