@@ -14,9 +14,20 @@ Attention！！！
 
 ### Real
 
-"test4_7.m": Results for Real case. just click Run. 
+"test6_2.m": Results for Real case. 
+
+"plot_sol_slice.m", "plot_sol_slice1.m": Results and pressure profile plots. 
 
 ### Cruve
 
 “test7_1.m”, "test7_2.m": Results for Cruve case.
+
+### 3D
+This folder contains the MATLAB codes for the 3D numerical examples.
+
+The codes require the MATLAB Reservoir Simulation Toolbox (**MRST**) to run.
+
+“test3d_1.m”, "test3d_2.m": Results for 3D case.
+
+### Convergence
 
