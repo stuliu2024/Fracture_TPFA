@@ -3,8 +3,6 @@ Paper: A novel control volume method for flow in fractured porous media on non-c
 
 All code was written and tested with MATLAB R2018a.
 
-Attention！！！
-
 ### Cross
 
 "test4_5.m": Results for Cross case. 
@@ -18,9 +16,9 @@ Attention！！！
 
 "plot_sol_slice.m", "plot_sol_slice1.m": Results and pressure profile plots. 
 
-### Cruve
+### Curve
 
-“test7_1.m”, "test7_2.m": Results for Cruve case.
+“test7_1.m”, "test7_2.m" and "test7_3_1.m": Results for Curve case.
 
 ### 3D
 This folder contains the MATLAB codes for the 3D numerical examples.
