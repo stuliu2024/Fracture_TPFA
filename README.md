@@ -29,3 +29,5 @@ The codes require the MATLAB Reservoir Simulation Toolbox (**MRST**) to run.
 
 ### Convergence
 
+"test_c_1.m": Run the script to compute and display the observed convergence orders of the pressure. 
+
