@@ -2,7 +2,7 @@ clc,clear
 close all
 
 xa=0;xb=1;yc=0;yd=1;
-
+addpath(genpath(pwd))
 %导入参考解
 Data_r = load('Data_r.mat');
 

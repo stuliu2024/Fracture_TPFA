@@ -1,5 +1,6 @@
 clc,clear
 close all
+addpath(genpath(pwd))
 % set the geometry and triangulation parameters:
 xmin = 0 ; xmax = 1 ; % domain 
 ymin = 0 ; ymax = 1 ; % domain
