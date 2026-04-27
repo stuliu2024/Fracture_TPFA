@@ -1,5 +1,5 @@
 # Fracture_TPFA
-Paper: A novel control volume discrete fracture model based on the RDFM framework in fractured porous media on non-conforming meshes. 
+Paper: A novel control volume method for flow in fractured porous media on non-conforming meshes.
 
 All code was written and tested with MATLAB R2018a.
 
