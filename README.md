@@ -25,7 +25,7 @@ This folder contains the MATLAB codes for the 3D numerical examples.
 
 The codes require the MATLAB Reservoir Simulation Toolbox (**MRST**) to run.
 
-“test3d_1.m”, "test3d_2.m": Results for 3D case.
+“test3d_1.m”: Results for 3D case.
 
 ### Convergence
 
