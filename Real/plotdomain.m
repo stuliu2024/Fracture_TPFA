@@ -105,5 +105,5 @@ text(ax(2)-25, ax(1)-30, '700', 'FontName', 'Times', 'FontSize', 12');
 text(ax(1)-50, ax(1), '0', 'FontName', 'Times', 'FontSize', 12');
 text(ax(1)-50, ax(4), '600', 'FontName', 'Times', 'FontSize', 12');
 
-saveas(gcf, 'Real_fractures_domain','epsc');
-print('-depsc', '-r300', 'Real_fractures_domain.eps');
+% saveas(gcf, 'Real_fractures_domain','epsc');
+% print('-depsc', '-r300', 'Real_fractures_domain.eps');

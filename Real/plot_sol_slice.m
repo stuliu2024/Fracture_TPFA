@@ -19,7 +19,7 @@ plot(Data_105.R_slice1_51,Data_105.U_slice1_51,'LineWidth', 1.5);
 plot(Data_175.R_slice1_51,Data_175.U_slice1_51,'LineWidth', 1.5);
 hold off;
 legend('Reference','105 \times 90 mesh','175 \times 150 mesh', 'Location', 'northeast');   
-saveas(gcf, 'Real_Slice_y_500','epsc'); 
+% saveas(gcf, 'Real_Slice_y_500','epsc'); 
 
 %x=625
 figure;
@@ -29,7 +29,7 @@ plot(Data_105.R_slice1_52,Data_105.U_slice1_52,'LineWidth', 1.5);
 plot(Data_175.R_slice1_52,Data_175.U_slice1_52,'LineWidth', 1.5);
 hold off;
 legend('Reference','105 \times 90 mesh','175 \times 150 mesh', 'Location', 'northeast');   
-saveas(gcf, 'Real_Slice_x_625','epsc'); 
+% saveas(gcf, 'Real_Slice_x_625','epsc'); 
 
 
 
@@ -57,7 +57,7 @@ plot(Data_560.R_slice1_51,Data_560.U_slice1_51,'LineWidth', 1.5);
 plot(Slice_Res_ldg1,Slice_Ues_ldg1,'LineWidth', 1.5);
 hold off;
 legend('Reference','RDFM-TPFA','RDFM-LDG', 'Location', 'northeast');   
-saveas(gcf, 'Real_Slice_y_500_compare','epsc'); 
+% saveas(gcf, 'Real_Slice_y_500_compare','epsc'); 
 
 %x=625
 figure;
@@ -67,4 +67,4 @@ plot(Data_560.R_slice1_52,Data_560.U_slice1_52,'LineWidth', 1.5);
 plot(Slice_Res_ldg2,Slice_Ues_ldg2,'LineWidth', 1.5);
 hold off;
 legend('Reference','RDFM-TPFA','RDFM-LDG', 'Location', 'northeast');   
-saveas(gcf, 'Real_Slice_x_625_compare','epsc'); 
+% saveas(gcf, 'Real_Slice_x_625_compare','epsc'); 

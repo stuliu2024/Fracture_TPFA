@@ -397,7 +397,7 @@ hold on;
 contour(X_meshgrid,Y_meshgrid,U_meshgrid')
 view([50 30]);
 filename = ['Curve_',num2str(nnn),'_solution_1'];
-saveas(gcf, filename,'epsc');
+% saveas(gcf, filename,'epsc');
 
 
 %slice

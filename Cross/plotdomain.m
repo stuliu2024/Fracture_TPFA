@@ -44,4 +44,4 @@ text(ax(2)-0.009, ax(1)-0.045, '1', 'FontName', 'Times', 'FontSize', 12');
 text(ax(1)-0.045, ax(1), '0', 'FontName', 'Times', 'FontSize', 12');
 text(ax(1)-0.045, ax(2), '1', 'FontName', 'Times', 'FontSize', 12');
 
-saveas(gcf, 'Cross_fractures_domain','epsc');
+% saveas(gcf, 'Cross_fractures_domain','epsc');

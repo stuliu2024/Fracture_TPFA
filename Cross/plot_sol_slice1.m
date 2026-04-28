@@ -29,7 +29,7 @@ surf(Xq,Yq,Vq1)
 colormap('parula');xlim([Interp_xmin,Interp_xmax]); ylim([Interp_ymin Interp_ymax]);view(30,30);
 contour(X_meshgrid,Y_meshgrid,U_meshgrid')
 hold off;
-saveas(gcf, 'Cross_20_Solution','epsc');
+% saveas(gcf, 'Cross_20_Solution','epsc');
 
 %40
 nx2 = sqrt(Data_30.dof);
@@ -48,7 +48,7 @@ surf(Xq,Yq,Vq2)
 colormap(parula);xlim([Interp_xmin,Interp_xmax]); ylim([Interp_ymin Interp_ymax]);view(30,30);
 contour(X_meshgrid,Y_meshgrid,U_meshgrid')
 hold off;
-saveas(gcf, 'Cross_30_Solution','epsc');
+% saveas(gcf, 'Cross_30_Solution','epsc');
 
 %80
 nx2 = sqrt(Data_60.dof);
@@ -67,7 +67,7 @@ surf(Xq,Yq,Vq2)
 colormap(parula);xlim([Interp_xmin,Interp_xmax]); ylim([Interp_ymin Interp_ymax]);view(30,30);
 contour(X_meshgrid,Y_meshgrid,U_meshgrid')
 hold off;
-saveas(gcf, 'Cross_60_Solution','epsc');
+% saveas(gcf, 'Cross_60_Solution','epsc');
 
 
 %slice
@@ -80,7 +80,7 @@ plot(Data_30.R_slice0_51,Data_30.U_slice0_51,'LineWidth', 1.5);
 plot(Data_60.R_slice0_51,Data_60.U_slice0_51,'LineWidth', 1.5);
 hold off;
 legend('Reference','20 \times 20 mesh','30 \times 30 mesh','60 \times 60 mesh', 'Location', 'northeast'); 
-saveas(gcf, 'Cross_Slice_y_0p45_1','epsc'); 
+% saveas(gcf, 'Cross_Slice_y_0p45_1','epsc'); 
 
 
 
@@ -93,7 +93,7 @@ plot(Data_30.R_slice2_51,Data_30.U_slice2_51,'LineWidth', 1.5);
 plot(Data_60.R_slice2_51,Data_60.U_slice2_51,'LineWidth', 1.5);
 hold off;
 legend('Reference','20 \times 20 mesh','30 \times 30 mesh','60 \times 60 mesh', 'Location', 'northeast'); 
-saveas(gcf, 'Cross_Slice_x_0p3_1','epsc'); 
+% saveas(gcf, 'Cross_Slice_x_0p3_1','epsc'); 
 
 %x=0.4
 figure;
@@ -104,7 +104,7 @@ plot(Data_30.R_slice3_51,Data_30.U_slice3_51,'LineWidth', 1.5);
 plot(Data_60.R_slice3_51,Data_60.U_slice3_51,'LineWidth', 1.5);
 hold off;
 legend('Reference','20 \times 20 mesh','30 \times 30 mesh','60 \times 60 mesh', 'Location', 'northeast'); 
-saveas(gcf, 'Cross_Slice_x_0p4_1','epsc');
+% saveas(gcf, 'Cross_Slice_x_0p4_1','epsc');
 
 
 
@@ -132,7 +132,7 @@ surf(Xq,Yq,Vq1)
 colormap('parula');xlim([Interp_xmin,Interp_xmax]); ylim([Interp_ymin Interp_ymax]);view(30,30);
 contour(X_meshgrid,Y_meshgrid,U_meshgrid')
 hold off;
-saveas(gcf, 'Cross_21_Solution','epsc');
+% saveas(gcf, 'Cross_21_Solution','epsc');
 
 %40
 nx2 = sqrt(Data_31.dof);
@@ -151,7 +151,7 @@ surf(Xq,Yq,Vq2)
 colormap(parula);xlim([Interp_xmin,Interp_xmax]); ylim([Interp_ymin Interp_ymax]);view(30,30);
 contour(X_meshgrid,Y_meshgrid,U_meshgrid')
 hold off;
-saveas(gcf, 'Cross_31_Solution','epsc');
+% saveas(gcf, 'Cross_31_Solution','epsc');
 
 %80
 nx2 = sqrt(Data_61.dof);
@@ -170,7 +170,7 @@ surf(Xq,Yq,Vq2)
 colormap(parula);xlim([Interp_xmin,Interp_xmax]); ylim([Interp_ymin Interp_ymax]);view(30,30);
 contour(X_meshgrid,Y_meshgrid,U_meshgrid')
 hold off;
-saveas(gcf, 'Cross_61_Solution','epsc');
+% saveas(gcf, 'Cross_61_Solution','epsc');
 
 
 %slice
@@ -183,7 +183,7 @@ plot(Data_31.R_slice0_51,Data_31.U_slice0_51,'LineWidth', 1.5);
 plot(Data_61.R_slice0_51,Data_61.U_slice0_51,'LineWidth', 1.5);
 hold off;
 legend('Reference','21 \times 21 mesh','31 \times 31 mesh','61 \times 61 mesh', 'Location', 'northeast'); 
-saveas(gcf, 'Cross_Slice_y_0p45_2','epsc'); 
+% saveas(gcf, 'Cross_Slice_y_0p45_2','epsc'); 
 
 
 
@@ -196,7 +196,7 @@ plot(Data_31.R_slice2_51,Data_31.U_slice2_51,'LineWidth', 1.5);
 plot(Data_61.R_slice2_51,Data_61.U_slice2_51,'LineWidth', 1.5);
 hold off;
 legend('Reference','21 \times 21 mesh','31 \times 31 mesh','61 \times 61 mesh', 'Location', 'northeast'); 
-saveas(gcf, 'Cross_Slice_x_0p3_2','epsc'); 
+% saveas(gcf, 'Cross_Slice_x_0p3_2','epsc'); 
 
 %x=0.4
 figure;
@@ -207,7 +207,7 @@ plot(Data_31.R_slice3_51,Data_31.U_slice3_51,'LineWidth', 1.5);
 plot(Data_61.R_slice3_51,Data_61.U_slice3_51,'LineWidth', 1.5);
 hold off;
 legend('Reference','21 \times 21 mesh','31 \times 31 mesh','61 \times 61 mesh', 'Location', 'northeast'); 
-saveas(gcf, 'Cross_Slice_x_0p4_2','epsc');
+% saveas(gcf, 'Cross_Slice_x_0p4_2','epsc');
 
 
 % % ∂‘±»Õº
