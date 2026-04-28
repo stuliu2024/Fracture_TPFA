@@ -2,6 +2,7 @@ clc;
 clear;
 close all;
 
+addpath(genpath(pwd))
 Data_r = load('Data_r.mat');
 Data_485 = load('Data_121.mat');
 Data_cg = load('Data_cg.mat');

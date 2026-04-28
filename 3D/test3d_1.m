@@ -6,7 +6,7 @@ mrstModule add incomp linearsolvers
 gravity reset off;
 
 %% Initialize a grid
-N=40; 
+N=41; 
 Nx = [N N N];
 G = cartGrid(Nx,[1 1 1],'cellnodes',true);
 G = computeGeometry(G);
