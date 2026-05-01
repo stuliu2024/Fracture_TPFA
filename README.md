@@ -8,8 +8,6 @@ All code was written and tested with MATLAB R2018a.
 "test4_5.m": Results for Cross case. 
 "plot_sol_slice.m", "plot_sol_slice1.m": Results and pressure profile plots. 
 
-"error_compare.m": Relative L2 errors for matrix and fractures.
-
 ### Real
 
 "test6_2.m": Results for Real case. 
