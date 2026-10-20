@@ -32,4 +32,4 @@ The codes require the MATLAB Reservoir Simulation Toolbox (**MRST**) to run.
 
 ### Revised manuscript figures
 
-[MATLAB files and corresponding manuscript/SI figures](paper_reproduction/使用说明.txt).
+[MATLAB files and corresponding manuscript/SI figures](paper_reproduction/README.txt).

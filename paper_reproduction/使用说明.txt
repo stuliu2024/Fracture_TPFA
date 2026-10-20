@@ -1,4 +1,0 @@
-01_realistic_network/plot_realcase.m：正文 Figure 2(d)，SI Figures S7–S9。
-02_single_fracture_3d/plot_single_fracture.m：正文 Figures 3(a,b)，SI Figures S10–S11。
-03_regular_network_3d/plot_regular_network.m：正文 Figures 3(c,d)，SI Figure S14。
-03_regular_network_3d/plot_si_profiles.m：SI Figure S15。
