@@ -1,0 +1,82 @@
+    ----------------------------------------------------
+	您的 MATLAB 许可证将在 11 天后过期。
+	请与系统管理员或
+	MathWorks 公司联系，以便续订此许可证。
+    ----------------------------------------------------
+ 
+要开始，请键入以下项之一: helpwin、helpdesk 或 demo。
+有关产品信息，请访问 www.mathworks.com。
+ 
+Welcome to the MATLAB Reservoir Simulation Toolbox (MRST)!
+You are using the release version 2023a. To download other versions of MRST
+and view examples and relevant publications, please visit www.mrst.no
+
+Useful commands for getting started:
+ - List all introductory examples:   mrstExamples()
+ - List all modules:                 mrstPath('list')
+ - Load modules using GUI:           mrstModule('gui')
+ - Explore all available data sets:  mrstDatasetGUI()
+ - List examples of a module:        mrstExamples('ad-blackoil')
+ - Explore modules and publications: mrstExploreModules()
+ - Show all examples in all modules: mrstExamples('all')
+ - Show settings for MRST:           mrstSettings()
+ - Display this message:             mrstStartupMessage()
+
+For assistance and discussions about MRST, please visit our mailing list at
+	www.sintef.no/projectweb/mrst/forum/ (sintef-mrst@googlegroups.com)
+For some common queries, see our FAQ: www.sintef.no/projectweb/mrst/faq/
+[警告: 为文件或文件夹指定的位置
+file:///C:/Users/ASUS/Desktop/pRDFM/tmp/perl:%20warning:%20Setting%20locale%20failed.%0Aperl:%20warning:%20Please%20check%20that%20your%20locale%20settings:%0A%09LC_ALL%20%3D%20%22C.UTF-8%22%2C%0A%09LC_CTYPE%20%3D%20%22C.UTF-8%22%2C%0A%09LANG%20%3D%20%22C.UTF-8%22%0A%20%20%20%20are%20supported%20and%20installed%20on%20your%20system.%0Aperl:%20warning:%20Falling%20back%20to%20the%20system%20default%20locale%20%28%22Chinese%20%28Simplified%29_China.936%22%29.%0AD:/program/matlab2018a/toolbox/matlab/addons
+无效。] 
+[> In restoredefaultpath (line 51)
+  In check_reproduction (line 2)
+  In run (line 91)] 
+MRST C:\Users\ASUS\Desktop\pRDFM\paper_reproduction\dependencies\mrst-2023a\modules\incomp\incompTPFA.m
+AGMG C:\Users\ASUS\Desktop\pRDFM\paper_reproduction\dependencies\mrst-2023a\utils\3rdparty\agmg\Matlab\agmg.m
+
+time2 =
+
+    1.8736
+
+Cells: 26250; fractured: 3155; maximum absolute residual: 1.08132284e-19
+     Nx     Ny      TPFA_DOF     TPFA_s       CG_DOF       CG_s       LDG_DOF      LDG_s 
+    ____    ___    __________    _______    __________    _______    __________    ______
+
+      70     60          4200    0.81524          4209    0.86774         16800    1.7261
+     140    120         16800     1.4757         16819     1.6477         67200    5.7951
+     280    240         67200     2.9179         67239     3.9877     2.688e+05    23.091
+     560    480     2.688e+05     7.3778    2.6888e+05       11.7    1.0752e+06    148.23
+    1120    960    1.0752e+06     24.876    1.0754e+06     43.537    4.3008e+06    422.81
+
+REAL pressure difference 0; residual difference 0
+REAL_CHECK_PASSED
+时间已过 0.171498 秒。
+CG: 1859 free DOFs; relative residual 1.911856e-07
+SINGLE_N12 TPFA residual 2.0157049e-05; CG residual 1.9118563e-07
+SINGLE_CHECK_PASSED
+N=9 DOFs=729 head=[1.155198314,2.324268183] relres=3.4504e-11
+AREA=3.9375 INFLOW=0.1875 OUTFLOW=0.187500000003 MAX_CELL_RESIDUAL=9.8308e-12
+REGULAR N9 head difference 0
+N=17 DOFs=4913 head=[1.02732775,2.311131829] relres=7.7432e-11
+AREA=3.9375 INFLOW=0.1875 OUTFLOW=0.187500000025 MAX_CELL_RESIDUAL=8.5681e-12
+REGULAR N17 head difference 0
+N=20 DOFs=8000 head=[1.014718159,2.220037563] relres=2.0188e-11
+AREA=3.9375 INFLOW=0.1875 OUTFLOW=0.187499999999 MAX_CELL_RESIDUAL=1.4368e-12
+REGULAR N20 head difference 1.11022302463e-15
+N=35 DOFs=42875 head=[1.00196475,2.243479143] relres=4.6426e-11
+AREA=3.9375 INFLOW=0.1875 OUTFLOW=0.187499999993 MAX_CELL_RESIDUAL=4.4685e-12
+REGULAR N35 head difference 4.52970994047e-14
+N=50 DOFs=125000 head=[1.000593885,2.265670461] relres=3.4300e-11
+AREA=3.9375 INFLOW=0.1875 OUTFLOW=0.187500000016 MAX_CELL_RESIDUAL=2.0031e-12
+REGULAR N50 head difference 1.28785870857e-14
+CHECK_FAILED
+位置 1 的索引超出数组范围。
+
+出错 plot_regular_network (line 9)
+    lo=max(lo,curves{j}(1,1));hi=min(hi,curves{j}(end,1));
+
+出错 check_reproduction (line 31)
+plot_regular_network;plot_si_profiles;
+
+出错 run (line 91)
+evalin('caller', strcat(script, ';'));

@@ -1,0 +1,317 @@
+[
+  {
+    "method": "UiB/TPFA",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\TPFA\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UiB__TPFA.csv",
+    "sha256": "e93a43f35e7c52deccc65ae3466ef48f91ea205802fd7ad7017aebfae1a79666"
+  },
+  {
+    "method": "UiB/MPFA",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\MPFA\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UiB__MPFA.csv",
+    "sha256": "e29e82e9466c84f7f380a6615f6c23c3a30c440c148098dcd0283d88f402560e"
+  },
+  {
+    "method": "UiB/MVEM",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\MVEM\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UiB__MVEM.csv",
+    "sha256": "83830267961d00af0911d40491685f17f1d428290c8391a0e69d2359f851fbda"
+  },
+  {
+    "method": "UiB/RT0",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\RT0\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UiB__RT0.csv",
+    "sha256": "891dd9402fa7d46f83a69b6e773a7f287fedbac4d3e5a13c324c43c5d50c831b"
+  },
+  {
+    "method": "USTUTT/MPFA",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\USTUTT\\MPFA\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\USTUTT__MPFA.csv",
+    "sha256": "a48f71cce8b02784be07554f9a22263ff0b455d4a15e1a8617e746c0b83db260"
+  },
+  {
+    "method": "USTUTT/TPFA_Circ",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\USTUTT\\TPFA_Circ\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\USTUTT__TPFA_Circ.csv",
+    "sha256": "3d94cc070f14aa372465a3bd24333d168d651f78108a4b7b69d4ca30ca2a0152"
+  },
+  {
+    "method": "LANL/MFD",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\LANL\\MFD\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\LANL__MFD.csv",
+    "sha256": "f6f22fe4f227152160e1a3844fd951f40e8203fcc0fdf9f683e0d8b44b40bbdf"
+  },
+  {
+    "method": "UNICE_UNIGE/VAG_Cont",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\VAG_Cont\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UNICE_UNIGE__VAG_Cont.csv",
+    "sha256": "c869e27d912a2b6cfd2acf5d53d3716dad4201f4c8b2176d8ba1912d8ac3d0ac"
+  },
+  {
+    "method": "UNICE_UNIGE/HFV_Cont",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\HFV_Cont\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UNICE_UNIGE__HFV_Cont.csv",
+    "sha256": "e9a180049af3cf7cfbe29da003b1e186f5087d94de1440cd99f5ae0b0caf751d"
+  },
+  {
+    "method": "UNICE_UNIGE/VAG_Disc",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\VAG_Disc\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UNICE_UNIGE__VAG_Disc.csv",
+    "sha256": "3cdce0bc8e606eae17bdd2c89f551c49e20457777507417e0e5b3d4c545bb34a"
+  },
+  {
+    "method": "UNICE_UNIGE/HFV_Disc",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\HFV_Disc\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UNICE_UNIGE__HFV_Disc.csv",
+    "sha256": "78650e5dad8368dcfa7f9ce9c73cc6a40a53eacb60040b26d458ba142229e5c5"
+  },
+  {
+    "method": "ETHZ_USI/FEM_LM",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\ETHZ_USI\\FEM_LM\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\ETHZ_USI__FEM_LM.csv",
+    "sha256": "afb376bf0664980e2a0470cb17c193bf53d36a50da0e3195f28cb4367b404fa5"
+  },
+  {
+    "method": "UNICAMP/Hybrid_Hdiv",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICAMP\\Hybrid_Hdiv\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UNICAMP__Hybrid_Hdiv.csv",
+    "sha256": "48dd83e9b25bcfdd968014acdbd9a710000a13559b847cf19a100af126b6aaae"
+  },
+  {
+    "method": "UNIL_USI/FE_AMR_AFC",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNIL_USI\\FE_AMR_AFC\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\UNIL_USI__FE_AMR_AFC.csv",
+    "sha256": "4896f0613469e5483b88cfb0f339722e6feb8ef99c6c8f99d6f19c5d541b1549"
+  },
+  {
+    "method": "DTU/FEM_COMSOL",
+    "level": 0,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\DTU\\FEM_COMSOL\\dol_cond_0_refinement_0.csv",
+    "local": "data\\level0\\DTU__FEM_COMSOL.csv",
+    "sha256": "7cf02da9892390dd85cb66f7a578d481e528513e5e5baf19925267722d7c8bf3"
+  },
+  {
+    "method": "UiB/TPFA",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\TPFA\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UiB__TPFA.csv",
+    "sha256": "1c7a58e1066c1151c6e633ff86f8fcc228b76d436f7b277d5e69cd9057746fc5"
+  },
+  {
+    "method": "UiB/MPFA",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\MPFA\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UiB__MPFA.csv",
+    "sha256": "cac4f0d14e132483695871f18ff53663082b7a8a6a05b34fa7c866e9778dc4e6"
+  },
+  {
+    "method": "UiB/MVEM",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\MVEM\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UiB__MVEM.csv",
+    "sha256": "03bf14383bf67deee46cefe382b861afa5b60a319734ab3ee73d6bdba83bc522"
+  },
+  {
+    "method": "UiB/RT0",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\RT0\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UiB__RT0.csv",
+    "sha256": "11bcab612edcc804c1bf34fe1f123a8a667c63cd88915f8296cbe55322a5ddd7"
+  },
+  {
+    "method": "USTUTT/MPFA",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\USTUTT\\MPFA\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\USTUTT__MPFA.csv",
+    "sha256": "d957b23ded1d1b8b4cdfa4f94754345eb43f06f1c8e88772eba1adf86cf47967"
+  },
+  {
+    "method": "USTUTT/TPFA_Circ",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\USTUTT\\TPFA_Circ\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\USTUTT__TPFA_Circ.csv",
+    "sha256": "27f7c1338a27e79f885137d0f87a3ccae7a6fe88d74df6592f83f46eb873635c"
+  },
+  {
+    "method": "LANL/MFD",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\LANL\\MFD\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\LANL__MFD.csv",
+    "sha256": "b41df00501d628503355c6b17ca8bf5f9e5b55a94b4da0b601c1f9785550530d"
+  },
+  {
+    "method": "UNICE_UNIGE/VAG_Cont",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\VAG_Cont\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UNICE_UNIGE__VAG_Cont.csv",
+    "sha256": "ad39a5ffce3140f0ccf1d2a9caa4bbf758cfbfa6824c045e415ff9a458978b36"
+  },
+  {
+    "method": "UNICE_UNIGE/HFV_Cont",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\HFV_Cont\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UNICE_UNIGE__HFV_Cont.csv",
+    "sha256": "137c437f0004b7981404cfe161478b68415a712d3d3aa7dcc15b8fffc9348e32"
+  },
+  {
+    "method": "UNICE_UNIGE/VAG_Disc",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\VAG_Disc\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UNICE_UNIGE__VAG_Disc.csv",
+    "sha256": "e11bc5426bc007fd455f14dd302d37b9487c7eeec3a7843279da54795405c796"
+  },
+  {
+    "method": "UNICE_UNIGE/HFV_Disc",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\HFV_Disc\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UNICE_UNIGE__HFV_Disc.csv",
+    "sha256": "8e9df3ebdf5ebeb3cf6730fe7fcf694d55221a17a145bf0fc35e0e8431fed328"
+  },
+  {
+    "method": "ETHZ_USI/FEM_LM",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\ETHZ_USI\\FEM_LM\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\ETHZ_USI__FEM_LM.csv",
+    "sha256": "ac28509acb3115a5cdd843fee82ab908ca161731a9b2dc7740a68578ba71d0da"
+  },
+  {
+    "method": "UNICAMP/Hybrid_Hdiv",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICAMP\\Hybrid_Hdiv\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UNICAMP__Hybrid_Hdiv.csv",
+    "sha256": "e5e3fe703a7d91587003db5d0b2750b08840c898452e24d9dca79a7a64768401"
+  },
+  {
+    "method": "UNIL_USI/FE_AMR_AFC",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNIL_USI\\FE_AMR_AFC\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\UNIL_USI__FE_AMR_AFC.csv",
+    "sha256": "3c14918b8fd16fe8e859b8cd72ba0baacb4b66da72374553075d201175445f08"
+  },
+  {
+    "method": "DTU/FEM_COMSOL",
+    "level": 1,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\DTU\\FEM_COMSOL\\dol_cond_0_refinement_1.csv",
+    "local": "data\\level1\\DTU__FEM_COMSOL.csv",
+    "sha256": "46d707a1541d3a64a2a529af8f01743ae22bc31d0119ec551ccf545c3523b283"
+  },
+  {
+    "method": "UiB/TPFA",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\TPFA\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UiB__TPFA.csv",
+    "sha256": "931955fd9df94a796ff53cb2782198064c068e19bf47aa71e00f4802bd798579"
+  },
+  {
+    "method": "UiB/MPFA",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\MPFA\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UiB__MPFA.csv",
+    "sha256": "fa53972a1af9cc9cce4525ae9182737466b3b2ac729b2f050cda25e550f0f724"
+  },
+  {
+    "method": "UiB/MVEM",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\MVEM\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UiB__MVEM.csv",
+    "sha256": "9a684fc184a19e03e5a57375626ace0cade45bdf5dd49d56b96bf65a7f1f3a83"
+  },
+  {
+    "method": "UiB/RT0",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UiB\\RT0\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UiB__RT0.csv",
+    "sha256": "31468eeb2d3fcd77eed2a873110cc273cc00b5d7c38c70740a14e466af23f831"
+  },
+  {
+    "method": "USTUTT/MPFA",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\USTUTT\\MPFA\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\USTUTT__MPFA.csv",
+    "sha256": "f8c06da44db800294624cb3109ee243a00ce6d3e777790300adef474a0a1665c"
+  },
+  {
+    "method": "USTUTT/TPFA_Circ",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\USTUTT\\TPFA_Circ\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\USTUTT__TPFA_Circ.csv",
+    "sha256": "cf63af578afd6c422b644dcfccd9469255d67fcd25bf95aebdd5f3c29327f8d9"
+  },
+  {
+    "method": "LANL/MFD",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\LANL\\MFD\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\LANL__MFD.csv",
+    "sha256": "9dbaeca6d07343305546b071b71e8cdb03b519a5ca372c8709aaf9b16510c6ab"
+  },
+  {
+    "method": "UNICE_UNIGE/VAG_Cont",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\VAG_Cont\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UNICE_UNIGE__VAG_Cont.csv",
+    "sha256": "6e34b1826a19f52848b7c4b6bdcb0df731ebe0cfcdeb29e6037499fca2eb4bbd"
+  },
+  {
+    "method": "UNICE_UNIGE/HFV_Cont",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\HFV_Cont\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UNICE_UNIGE__HFV_Cont.csv",
+    "sha256": "90b45b161d32076d74d7a3f1b9748a5e5cf7e83e149eebe4742e6c3c9f688c27"
+  },
+  {
+    "method": "UNICE_UNIGE/VAG_Disc",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\VAG_Disc\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UNICE_UNIGE__VAG_Disc.csv",
+    "sha256": "287383ceddf1638ebb7262636eaf0b8f0a7e10fa22a1181bfbb6afe2d2be0805"
+  },
+  {
+    "method": "UNICE_UNIGE/HFV_Disc",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICE_UNIGE\\HFV_Disc\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UNICE_UNIGE__HFV_Disc.csv",
+    "sha256": "5f6417305fda848d03e4e2b81e9b432d85216970dce11dd86bf8677f0618b58a"
+  },
+  {
+    "method": "ETHZ_USI/FEM_LM",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\ETHZ_USI\\FEM_LM\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\ETHZ_USI__FEM_LM.csv",
+    "sha256": "dfc78c6d644c3df2e9cc9c0daafabfa46f18983c7129aefdec598515ab575d76"
+  },
+  {
+    "method": "UNICAMP/Hybrid_Hdiv",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNICAMP\\Hybrid_Hdiv\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UNICAMP__Hybrid_Hdiv.csv",
+    "sha256": "84b559aa545607c5a573a55049b0c9bd0a88866bc9c2905fa154bafbc6094a53"
+  },
+  {
+    "method": "UNIL_USI/FE_AMR_AFC",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\UNIL_USI\\FE_AMR_AFC\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\UNIL_USI__FE_AMR_AFC.csv",
+    "sha256": "f77cbdcde9f6830e16726e07212f6fb62ac5169687ecd54cb99b502a1a94daee"
+  },
+  {
+    "method": "DTU/FEM_COMSOL",
+    "level": 2,
+    "source": "D:\\chrome\\fracture-flow-3d-master\\fracture-flow-3d-master\\regular\\results\\DTU\\FEM_COMSOL\\dol_cond_0_refinement_2.csv",
+    "local": "data\\level2\\DTU__FEM_COMSOL.csv",
+    "sha256": "0cc49295f67bf4f236ea30d200f776d21987b14a4ad8251bcfebbf323d573218"
+  }
+]

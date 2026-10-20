@@ -1,0 +1,11 @@
+Both methods use 100^3 cells and identical actual fracture coordinates.
+TPFA from actual test3d_1.m in the user-confirmed mpfa/3D_case folder.
+CG equations assembled by my_rdfm_9.m with shared geometry; solved using diagonal scaling and incomplete-Cholesky-preconditioned PCG on the saved original matrix.
+No LDG solution computed; no surrogate or perturbed curve added.
+TPFA original-system relative residual: 0.0001702818779397544
+CG original-system relative residual: 9.190471317992125e-07
+TPFA pressure range: 0.005154241988569639 0.994806072511408
+CG pressure range: 0 1
+TPFA solved DOFs: 1000000; CG total DOFs: 1030301; CG free DOFs: 1009899
+TPFA instrumented linear solve seconds: 3.1740746; CG preconditioner and solve seconds: 79.5331344. These are not total CPU times.
+Profiles: TPFA linear cell-center interpolation and boundary endpoint values; CG Q1 interpolation.

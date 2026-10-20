@@ -1,0 +1,44 @@
+    ----------------------------------------------------
+	您的 MATLAB 许可证将在 11 天后过期。
+	请与系统管理员或
+	MathWorks 公司联系，以便续订此许可证。
+    ----------------------------------------------------
+ 
+要开始，请键入以下项之一: helpwin、helpdesk 或 demo。
+有关产品信息，请访问 www.mathworks.com。
+ 
+Welcome to the MATLAB Reservoir Simulation Toolbox (MRST)!
+You are using the release version 2023a. To download other versions of MRST
+and view examples and relevant publications, please visit www.mrst.no
+
+Useful commands for getting started:
+ - List all introductory examples:   mrstExamples()
+ - List all modules:                 mrstPath('list')
+ - Load modules using GUI:           mrstModule('gui')
+ - Explore all available data sets:  mrstDatasetGUI()
+ - List examples of a module:        mrstExamples('ad-blackoil')
+ - Explore modules and publications: mrstExploreModules()
+ - Show all examples in all modules: mrstExamples('all')
+ - Show settings for MRST:           mrstSettings()
+ - Display this message:             mrstStartupMessage()
+
+For assistance and discussions about MRST, please visit our mailing list at
+	www.sintef.no/projectweb/mrst/forum/ (sintef-mrst@googlegroups.com)
+For some common queries, see our FAQ: www.sintef.no/projectweb/mrst/faq/
+[警告: 为文件或文件夹指定的位置
+file:///C:/Users/ASUS/Desktop/pRDFM/tmp/perl:%20warning:%20Setting%20locale%20failed.%0Aperl:%20warning:%20Please%20check%20that%20your%20locale%20settings:%0A%09LC_ALL%20%3D%20%22C.UTF-8%22%2C%0A%09LC_CTYPE%20%3D%20%22C.UTF-8%22%2C%0A%09LANG%20%3D%20%22C.UTF-8%22%0A%20%20%20%20are%20supported%20and%20installed%20on%20your%20system.%0Aperl:%20warning:%20Falling%20back%20to%20the%20system%20default%20locale%20%28%22Chinese%20%28Simplified%29_China.936%22%29.%0AD:/program/matlab2018a/toolbox/matlab/addons
+无效。] 
+[> In restoredefaultpath (line 51)
+  In check_reproduction_plots (line 2)
+  In run (line 91)] 
+时间已过 3.245605 秒。
+SINGLE_N100 TPFA pressure difference 0; residual 0.00017028187794
+CHECK_FAILED
+错误: 文件:C:\Users\ASUS\Desktop\pRDFM\paper_reproduction\03_regular_network_3d\plot_si_profiles.m 行:70 列:59
+表达式无效。调用函数或对变量进行索引时，请使用圆括号。否则，请检查不匹配的分隔符。
+
+出错 check_reproduction_plots (line 13)
+plot_regular_network;plot_si_profiles;
+
+出错 run (line 91)
+evalin('caller', strcat(script, ';'));

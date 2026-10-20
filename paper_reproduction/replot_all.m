@@ -1,0 +1,10 @@
+clear;close all;
+root=fileparts(mfilename('fullpath'));
+addpath(fullfile(root,'01_realistic_network'));
+addpath(fullfile(root,'02_single_fracture_3d'));
+addpath(fullfile(root,'03_regular_network_3d'));
+plot_realcase;
+make_efficiency_table;
+plot_single_fracture;
+plot_regular_network;
+plot_si_profiles;
